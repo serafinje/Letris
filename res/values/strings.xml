@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LetrisMain!</string>
+    <string name="app_name">Android Letris</string>
+	<string name="menu_start">Nueva partida</string>
+	<string name="menu_stop">Terminar</string>
+	<string name="menu_pause">Pausa</string>
+	<string name="menu_resume">Continuar partida</string>
+	<string name="mode_pause">En pausa</string>
+	<string name="mode_ready">Ready!</string>
+	<string name="mode_lose">Loser!</string>
+	<string name="mode_win">Winner!</string>
+	<string name="mode_exit">Saliendo</string>
+	<string name="message_stopped">Stopped</string>
+    <string name="textoCabecera">Records</string>
+    <string name="textoBotonEmpezar">Nueva partida</string>
+    <string name="strSi">Sí</string>
+    <string name="strNo">No</string>
+</resources>

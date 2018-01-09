@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<!--  En la superficie principal tenemos la vista de juego -->
+    <com.sera.android.letris.LetrisDrawingSurface
+      android:id="@+id/letrisGameSurface"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+    
+    <!--  Encima de la superficie principal ponemos una vista para el campo de mensajes -->  
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TextView
+          android:id="@+id/messagesTextView"
+		  android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#ffff0000"
+          android:background="#ff0000ff"
+          android:textSize="24sp"/>
+     </RelativeLayout>
+</FrameLayout>
+ 
